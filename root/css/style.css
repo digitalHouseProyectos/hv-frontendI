@@ -31,9 +31,9 @@ ul {
     line-height: 32px;
 }
 
-tr {
-    line-height: 24px;
+table {
     text-align: left;
+    border-spacing: 0 5px;
 }
 
 .experiencia {
