@@ -1,0 +1,64 @@
+html {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+header div {
+    text-align: center;
+}
+
+img {
+    height: 10%;
+    width: 10%;
+}
+
+h1 {
+    background-color: #C4C4C4;
+    color: #005677;
+    margin-bottom: 150px;
+    margin-top: 0;
+    text-align: center; 
+}
+
+h2 {
+    background-color: #C4C4C4;
+    color: #005677;
+}
+
+ul {
+    padding: 5px 0 15px 25px;
+}
+
+.datos-personales {
+    padding-left: 20px;
+}
+
+.lista {
+    list-style: none;
+}
+
+
+.lista p {
+    padding-left: 95px;
+    line-height: 0%;
+}
+
+.experiencia ul {
+    padding-bottom: 180px;
+}
+
+footer {
+    background-color: #005677;
+    color: #ffff;
+    text-align: center;
+}
+
+footer ul {
+    display: inline-flex;
+    padding: 0;
+}
+
+footer ul li {
+    padding-left: 15px;
+    font-weight: bold;
+}
