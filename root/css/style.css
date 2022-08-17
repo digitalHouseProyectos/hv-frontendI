@@ -15,6 +15,7 @@ img {
 h1 {
     background-color: #C4C4C4;
     color: #005677;
+    letter-spacing: 5px;
     margin-bottom: 150px;
     margin-top: 0;
     text-align: center; 
@@ -23,27 +24,19 @@ h1 {
 h2 {
     background-color: #C4C4C4;
     color: #005677;
+    letter-spacing: 5px;
 }
 
 ul {
-    padding: 5px 0 15px 25px;
+    line-height: 32px;
 }
 
-.datos-personales {
-    padding-left: 20px;
+tr {
+    line-height: 24px;
+    text-align: left;
 }
 
-.lista {
-    list-style: none;
-}
-
-
-.lista p {
-    padding-left: 95px;
-    line-height: 0%;
-}
-
-.experiencia ul {
+.experiencia {
     padding-bottom: 180px;
 }
 
@@ -55,10 +48,11 @@ footer {
 
 footer ul {
     display: inline-flex;
+    list-style: none;
     padding: 0;
 }
 
 footer ul li {
-    padding-left: 15px;
     font-weight: bold;
+    padding-left: 15px;
 }
