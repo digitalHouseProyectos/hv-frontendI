@@ -1,10 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 html {
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;  
+}
+
+header {
+    background-image: url("/root/img/banner.jpg");
+    background-size: cover;
 }
 
 header div {
-    text-align: center;
+    text-align: left;
+}
+
+header nav {
+    color: #ffff;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 48px;
+    padding: 5px;
+    text-align: end;
+}
+
+header nav ul li{  
+    padding-left: 64px;
+}
+
+a:link, a:visited, a:active{
+    color: #ffff;
+    text-decoration: none;    
 }
 
 img {
@@ -14,7 +42,8 @@ img {
 
 h1 {
     background-color: #C4C4C4;
-    color: #005677;
+    color: #273746;
+    font-family: 'Bebas Neue', cursive;
     letter-spacing: 5px;
     margin-bottom: 150px;
     margin-top: 0;
@@ -23,17 +52,21 @@ h1 {
 
 h2 {
     background-color: #C4C4C4;
-    color: #005677;
+    color: #273746;
+    font-family: 'Bebas Neue', cursive;
     letter-spacing: 5px;
+    padding-left: 15px;
 }
 
 ul {
     line-height: 32px;
+    padding-left: 15px;
 }
 
 table {
     text-align: left;
-    border-spacing: 0 5px;
+    border-collapse: separate;
+    border-spacing: 15px 10px;
 }
 
 .experiencia {
@@ -46,7 +79,7 @@ footer {
     text-align: center;
 }
 
-footer ul {
+nav ul, footer ul {
     display: inline-flex;
     list-style: none;
     padding: 0;
